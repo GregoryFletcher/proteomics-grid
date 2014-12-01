@@ -1,0 +1,8 @@
+#############PROTEOMICS GRID JOB#################
+Executable = "doWorkflowJob.sh";
+StdOutput = "fileInfo.out";
+StdError = "fileInfo.err";
+InputSandbox = {"doWorkflowJob.sh"};
+OutputSandbox = {"fileInfo.out","fileInfo.err"};
+VirtualOrganisation = "vo.londongrid.ac.uk";
+######################################### 
